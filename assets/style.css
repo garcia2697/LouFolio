@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(243, 239, 239);
+}
+
+body{
+    justify-content: center;
+}
+header {   
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 35px;
+    
+    /* background-color: #39a6b2;  */
+    /* position: -webkit-sticky;
+    position: sticky;
+    top: 0; */
+    /* background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%; */
+}
+
+header h1{
+    font-size: 2vw;
+    flex-wrap: wrap;
+    list-style: none;
+    color: #024e76;
+} 
+
+header nav ul{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
+
+header nav ul li a {
+
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.5vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #024e76;
+    margin: 1.5vw;
+    text-decoration: none;
+    
+}
+
+/*  Navigation have their own box colors*/
+.me-nav a {
+    background-color: rgb(255, 105, 97);
+    border: solid 3px #024e76;
+    box-shadow: 0 0 1px rgba( 0, 0, 0, 0.05);
+    border-radius: 15px;
+}
+
+.git-nav a {
+    background-color: rgb(119, 221, 119);
+    border: solid 3px #024e76;
+    box-shadow: 0 0 1px rgba( 0, 0, 0, 0.05);
+    border-radius: 15px;
+}
+
+.done-nav a {
+    background-color: rgb(167, 199, 231);
+    border: solid 3px #024e76;
+    box-shadow: 0 0 1px rgba( 0, 0, 0, 0.05);
+    border-radius: 15px;
+}
+    
+
+.build-nav a {
+    background-color: rgb(253,253, 150);
+    border: solid 3px #024e76;
+    box-shadow: 0 0 1px rgba( 0, 0, 0, 0.05);
+    border-radius: 15px;
+}
+
+/* Nav colors are done */
+
+section {
+    padding: 5vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+section h2{
+    font-size: 2vw;
+}
+
+
+img{
+    max-width: 20vw;
+    max-height: 20vw;
+    border-radius: 15px;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border-radius: 15px;
+    border: solid 3px #024e76;
+}
+
+h3{
+    margin-right: 20vw;
+    font-size: 2vw;
+}
+
+.link{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border-radius: 15px;
+    border: solid 3px #024e76;
+}
+
+.build{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border-radius: 15px;
+    border: solid 3px #024e76;
+}
+/* .ArtMe {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+
+} */
+
+/* .artgit {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.artdone {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+
+} */
