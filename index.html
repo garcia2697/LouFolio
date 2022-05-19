@@ -14,16 +14,16 @@
 
     <!-- Navigation Bar -->
     <header> 
-      <div>  
-        <h1>
-            Header
-        </h1>
-    </div>
+        <div>  
+            <h1>
+                My Portfolio
+            </h1>
+        </div>
         <nav>
             <ul>
                 <div class="me-nav"> 
                 <li>
-                    <a href="#me"> 
+                    <a href="#Me"> 
                         About Me
                     </a>
                 </li>
@@ -31,7 +31,7 @@
 
                 <div class="git-nav"> 
                 <li>
-                    <a href="#git"> 
+                    <a href="#Git"> 
                     GitHub
                     </a>
                 </li>
@@ -40,19 +40,12 @@
                 <div class="done-nav">
                 <li> 
                     <a href="#done"> 
-                        Completed Projects
+                        Projects
                     </a>
             
                 </li>
                 </div>
 
-                <div class="build-nav">
-                <li>
-                    <a href="#build"> 
-                        Under Construction
-                    </a>
-                    
-                </li>
                 </div>
             </ul>
         </nav>
@@ -62,8 +55,11 @@
 
 <!-- Content the Navigation Bar Will Take Us too -->
 
+
+<section class="overall"> 
+
     <!-- Start Bio -->
-    <section class="me">
+    <section id="Me" class="me">
 
         <div>
             <h2>About Me</h2> 
@@ -86,46 +82,73 @@
 
     <!-- Finished Bio -->
 
-    <section id="git">
+    <section id="Git" class="git">
 
         <div>
             <h2>GitHub</h2> 
         </div>
 
-        <section class="link"> 
+        <div class="link"> 
             
-            <div> 
-                <h3>Hi my name is Luis Garcia, I graduated from Texas A&M University with a Bachelor's of Science in in Civil Engineering. I am planning on switching over to full stack development as a Junior developer.</h3>
-            </div>
-
             <div>
-                <img src="./assets/images/GitHub-Mark.png" alt="Picture of GitHub">
+                <a href="https://github.com/garcia2697"><img src="./assets/images/GitHub-Mark.png" alt="Picture of GitHub"></a>
+                
             </div>
-        </section>
+        </div>
 
     </section>
 
 
-    <section id="done">
+    <section id="done" class="projects">
 
         <div>
             <h2>Completed Projects</h2> 
         </div>
 
-        <section class="build"> 
-            
-            <div> 
-                <h3>Hi my name is Luis Garcia, I graduated from Texas A&M University with a Bachelor's of Science in in Civil Engineering. I am planning on switching over to full stack development as a Junior developer.</h3>
-            </div>
+        
 
-            <div>
-                <img src="./assets/images/construction.png" alt="Picture of Construction Work">
-            </div>
-        </section>
+        <div class="link">
+            <ul>
+                
+                <li>
+                    <div id="horsi" class="suv">
+
+                        <a class = "test" href="https://garcia2697.github.io/Horiseon-Social-Solutions/"><img src="./assets/images/digital-marketing-meeting.jpg" alt="Picture of Horiseon Refactoring projects"></a>
+                        
+                        <p>Horiseon</p>
+                    </div> 
+                </li>
+                
+                <li >
+                    <div class="suv">  
+                        <a href="https://garcia2697.github.io/run-buddy/"><img src="./assets/images/hero-bg.jpg" alt="Picture of Run Buddy website"></a>
+
+                        <p>Run Buddy</p>
+                    </div>
+                </li>
+            
+
+                
+                <li >
+                    <div class="suv">
+                        <a href=""> <img src="./assets/images/Under.jpg"> </a>
+                        <p>Work in progress</p>
+                    </div>
+                </li>
+                
+
+
+
+            </ul>
+            
+            
+            
+        </div>
 
         
     </section>
 
+</section>
     
 </body>
 

@@ -2,17 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(243, 239, 239);
 }
 
 body{
     justify-content: center;
+    background-color: rgb(243, 239, 239);
 }
+
 header {   
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 20px 35px;
+    background-color: rgb(243, 239, 239);
     
     /* background-color: #39a6b2;  */
     /* position: -webkit-sticky;
@@ -25,7 +27,7 @@ header {
 }
 
 header h1{
-    font-size: 2vw;
+    font-size: 4vw;
     flex-wrap: wrap;
     list-style: none;
     color: #024e76;
@@ -35,6 +37,7 @@ header nav ul{
 
     display: flex;
     flex-wrap: wrap;
+    
     justify-content: space-between;
     align-items: center;
     list-style: none;
@@ -91,6 +94,8 @@ section {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
+    background-color: rgb(243, 239, 239);
     
 }
 
@@ -100,9 +105,10 @@ section h2{
 
 
 img{
-    max-width: 20vw;
+    max-width: auto;
     max-height: 20vw;
     border-radius: 15px;
+    object-fit: cover;
 }
 
 .intro {
@@ -118,53 +124,72 @@ h3{
     font-size: 2vw;
 }
 
-.link{
+.link {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     border-radius: 15px;
     border: solid 3px #024e76;
+    width: 100%;
+    height: 30vw;
+    vertical-align: bottom;
+    background-color: rgb(243, 239, 239);
+}
+
+.projects{
+
 }
 
 .build{
+    list-style: none;
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: row;
     justify-content: space-around;
     border-radius: 15px;
     border: solid 3px #024e76;
 }
-/* .ArtMe {
-    margin: 50px auto;
-    padding-bottom: 50px;
-    
+.me {
     display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-around;
-    padding: 10px;
+    flex-direction: column;
+}
 
-} */
-
-/* .artgit {
-    margin: 50px auto;
-    padding-bottom: 50px;
-    
+.git, #done {
     display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-around;
-    padding: 10px;
+    flex-direction: column;
+}
+
+.link ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+.link ul li{
+    list-style: none;
+    align-content: flex-end;
+}
+
+.suv{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    padding: 3vw;
 
 }
 
-.artdone {
-    margin: 50px auto;
-    padding-bottom: 50px;
-    
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-around;
-    padding: 10px;
 
-} */
+.projects .link img{
+    max-width: auto;
+    max-height: 10vw;
+    border-radius: 2vw;
+    object-fit: cover;
+    align-items: baseline;
+}
+
+.projects .link p{
+font-size: 1.5vw;
+}
+
+.overall h2{
+    font-size: 3vw;
+}
