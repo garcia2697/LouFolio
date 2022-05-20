@@ -4,26 +4,21 @@
     box-sizing: border-box;
 }
 
+/* All content in the body will have this color and be centered */
 body{
     justify-content: center;
     background-color: rgb(243, 239, 239);
 }
 
+
+/* Header contains a navigation list and the header */
 header {   
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 20px 35px;
-    background-color: rgb(243, 239, 239);
+    background-color: 
     
-    /* background-color: #39a6b2;  */
-    /* position: -webkit-sticky;
-    position: sticky;
-    top: 0; */
-    /* background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%; */
 }
 
 header h1{
@@ -48,7 +43,7 @@ header nav ul li a {
 
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.5vw;
+    font-size: 2vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     color: #024e76;
     margin: 1.5vw;
@@ -56,7 +51,7 @@ header nav ul li a {
     
 }
 
-/*  Navigation have their own box colors*/
+/*  Navigation have their own box colors for personal flavor*/
 .me-nav a {
     background-color: rgb(255, 105, 97);
     border: solid 3px #024e76;
@@ -88,6 +83,7 @@ header nav ul li a {
 
 /* Nav colors are done */
 
+/* all sections applied */
 section {
     padding: 5vw;
     display: flex;
@@ -111,43 +107,26 @@ img{
     object-fit: cover;
 }
 
-.intro {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    border-radius: 15px;
-    border: solid 3px #024e76;
-}
 
 h3{
     margin-right: 20vw;
     font-size: 2vw;
 }
 
+/* all containers are connected to this link */
 .link {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     border-radius: 15px;
     border: solid 3px #024e76;
     width: 100%;
     height: 30vw;
     vertical-align: bottom;
-    background-color: rgb(243, 239, 239);
+    background-color: #024e76;
+    color: rgb(243, 239, 239);
 }
 
-.projects{
-
-}
-
-.build{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    border-radius: 15px;
-    border: solid 3px #024e76;
-}
 .me {
     display: flex;
     flex-direction: column;
@@ -177,7 +156,7 @@ h3{
 
 }
 
-
+/* centers different images and text */
 .projects .link img{
     max-width: auto;
     max-height: 10vw;
@@ -186,10 +165,29 @@ h3{
     align-items: baseline;
 }
 
+
 .projects .link p{
 font-size: 1.5vw;
 }
 
 .overall h2{
     font-size: 3vw;
+}
+
+
+
+.projects .link img { 
+	transition: all .2s ease-in-out; 
+}
+.projects .link img:hover { 
+    transform: scale(1.5); 
+}
+
+@media screen and (max-width: 575px) {
+  
+    .p {
+        width: 100%;
+    }
+
+  
 }
